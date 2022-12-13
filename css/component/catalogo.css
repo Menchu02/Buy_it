@@ -1,0 +1,22 @@
+.header-catalogo{
+    font-family: var(--main-font);
+    font-size: 2.2rem;
+    text-align: center;
+    padding-bottom: 35px;
+   
+}
+.lista-productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 23px;
+    padding: 0px 8px;
+}
+.lista-productos__ficha-producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lista-productos__ficha-producto img{
+    width: 160px;
+    height: 200px;
+}

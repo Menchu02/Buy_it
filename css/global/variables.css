@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap');
+:root{
+    --primary: #283044;
+    --secondary: #EBF5EE;
+    --third: #78A1BB;
+    --fourth : #BFA89E;
+    --fifth: #8B786D;
+    --main-font: "Mukta";
+
+}
