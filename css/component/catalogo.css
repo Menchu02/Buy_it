@@ -1,5 +1,10 @@
-.header-catalogo{
+main{
+    background-color:var(--fourth) ;
     font-family: var(--main-font);
+    color: var(--primary);
+}
+.header-catalogo{
+    
     font-size: 2.2rem;
     text-align: center;
     padding-bottom: 35px;
