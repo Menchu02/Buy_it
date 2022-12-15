@@ -1,0 +1,18 @@
+img{
+    width: 25px;
+    height: 25px;
+}
+.nav-container__header{
+    font-family: --navFont;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px;
+}
+.iconos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+gap: 30px;
+}
