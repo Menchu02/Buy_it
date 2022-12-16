@@ -2,6 +2,7 @@ main {
   background-color: var(--fourth);
   font-family: var(--main-font);
   color: var(--primary);
+  padding-bottom: 35px;
 }
 .header-catalogo {
   font-size: 2.2rem;
@@ -22,6 +23,8 @@ main {
 .lista-productos__ficha-producto img {
   width: 160px;
   height: 200px;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 footer {
@@ -30,18 +33,22 @@ footer {
   font-family: var(--main-font);
   font-size: 12pt;
   color: var(--secondary);
-  background-color: var(--primary);
+  background-color: var(--third);
+  padding: 10px 15px;
+  gap: 15px;
 }
 
 .footer__links {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
+  padding-bottom: 5px;
 }
 
 .footer__links a {
   text-decoration: none;
+  color: var(--secondary);
 }
 
 .footer__links a:visited {
@@ -56,6 +63,6 @@ footer {
 }
 
 .footer__social-media-logo {
-  width: 32px;
-  height: 32px;
+  width: 25px;
+  height: 25px;
 }
