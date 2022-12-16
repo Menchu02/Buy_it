@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap');
-:root{
-    --primary: #283044;
-    --secondary: #EBF5EE;
-    --third: #78A1BB;
-    --fourth : #BFA89E;
-    --fifth: #8B786D;
-    --main-font: "Mukta";
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap");
 
+:root {
+  --primary: #283044;
+  --secondary: #ebf5ee;
+  --third: #78a1bb;
+  --fourth: #bfa89e;
+  --fifth: #8b786d;
+  --main-font: "Mukta";
+  --navFont: "Holtwood One SC";
 }
