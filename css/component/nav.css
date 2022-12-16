@@ -1,18 +1,27 @@
-img{
-    width: 25px;
-    height: 25px;
+img {
+  width: 25px;
+  height: 25px;
 }
-.nav-container__header{
-    font-family: --navFont;
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 15px;
+  background-color: var(--third);
+  color: var(--secondary);
+  font-family: var(--navFont);
 }
-.nav-container{
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 15px;
+.nav-container__header {
+  font-size: 1rem;
 }
-.iconos{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-gap: 30px;
+
+.nav-container__header--bigCharacter {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.iconos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
 }
