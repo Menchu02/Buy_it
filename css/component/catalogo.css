@@ -25,13 +25,14 @@ main {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 15px;
 }
 .lista-productos__icono {
   width: 20px;
   height: 20px;
 }
 
-.lista-productos__ficha-producto img {
+.lista-productos__ficha-producto__imagen-producto {
   width: 160px;
   height: 200px;
   object-fit: cover;
