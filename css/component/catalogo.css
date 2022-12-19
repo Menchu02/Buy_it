@@ -20,6 +20,17 @@ main {
   flex-direction: column;
   align-items: center;
 }
+.lista-productos__container-precio {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.lista-productos__icono {
+  width: 20px;
+  height: 20px;
+}
+
 .lista-productos__ficha-producto img {
   width: 160px;
   height: 200px;
