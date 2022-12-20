@@ -46,7 +46,7 @@ footer {
   font-family: var(--main-font);
   font-size: 12pt;
   color: var(--secondary);
-  background-color: var(--third);
+  background-color: var(--primary);
   padding: 10px 15px;
   gap: 15px;
 }
