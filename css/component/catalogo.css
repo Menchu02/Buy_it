@@ -31,6 +31,8 @@ main {
 .lista-productos__icono {
   width: 20px;
   height: 20px;
+  background-image: url("./img/carrito2.png");
+  
 }
 
 .lista-productos__ficha-producto__imagen-producto {
