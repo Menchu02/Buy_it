@@ -7,7 +7,7 @@ img {
   display: flex;
   justify-content: space-between;
   padding: 40px 15px;
-  background-color: var(--third);
+  background-color: var(--primary);
   color: var(--secondary);
   font-family: var(--navFont);
 }
