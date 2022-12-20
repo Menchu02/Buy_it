@@ -1,19 +1,18 @@
 /**
- * Usa fetch para importar un componente de html en la página donde es llamada
+ * It uses fetch to import an HTML component into the page it is called
  * 
- * Modo de uso:
- *  En la pagina donde queremos cargar el componente debemos crear un contenedor donde insertarlo.
- *  Al llamar esta funcion necesitamos pasarle, 
- *    1. la ruta donde esta el archivo con el componente
- *    2. selector css del contenedor donde insertaremos el componente (ej. #contenedor, .contenedor,main,...)
+ * How to use:
+ *  We need to create a container element in the page where we want to insert the component.
+ *  To call this funtcion we need to give it as parameters: 
+ *    1. Path of the file with the HTML code to insert.
+ *    2. A string with a CSS selector pointing to the container element where we want to insert our component (ej. #contenedor, .contenedor,main,...)
  *
- * @param {string} ruta la ruta donde encontrar el componente a importar usando fetch
- * @param {string} selectorDestino selector CSS para seleccionar el elemento html de la página donde añadir el contenido del 
- *            componente recibido como un hijo.
+ * @param {string} path Path of the file with the HTML code to insert
+ * @param {string} destinationSelector CSS selector used to select in which HTML element we want to insert the contents of the given file path
  */
-async function cargarComponenteHtml(ruta, selectorDestino) {
+async function loadComponentHtml(path, destinationSelector) {
 
-  await fetch(ruta)
+  await fetch(path)
     .then((html) => { return html.text(); })
-    .then((content) => { document.querySelector(selectorDestino).innerHTML = content; });
+    .then((content) => { document.querySelector(destinationSelector).innerHTML = content; });
 }

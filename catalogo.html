@@ -1,438 +1,379 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <title>CoolDeco catalogo</title>
-  </head>
 
-  <body>
-    <header>
-      <nav class="nav-container">
-        <div>
-          <!-- <h1 class="nav-container__header">
-            <span class="nav-container__header--bigCharacter">c</span>
-            ool
-            <span class="nav-container__header--bigCharacter">d</span>
-            eco
-          </h1> -->
-          <h1 class="nav-container__header">
-            <span class="nav-container__header--bigCharacter">c</span>
-            ool
-            <span class="nav-container__header--bigCharacter">d</span>
-            eco
-          </h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>CoolDeco catalogo</title>
+  <script src="./js/componentManager.js"></script>
+  <script src="./catalogo.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <nav class="nav-container">
+      <div>
+        <h1 class="nav-container__header">
+          <span class="nav-container__header--bigCharacter">c</span>
+          ool
+          <span class="nav-container__header--bigCharacter">d</span>
+          eco
+        </h1>
+      </div>
+      <div class="iconos">
+        <div class="iconos__lupas">
+          <img src="./img/lupa.png" alt="lupa" />
         </div>
-        <div class="iconos">
-          <div class="iconos__lupas">
-            <img src="./img/lupa.png" alt="lupa" />
-          </div>
-          <div class="iconos__carrito">
-            <img src="./img/carrito2.png" alt="carrito" />
-          </div>
-          <div class="iconos__burguer">
-            <img src="./img/menu.png" alt="burguer" />
-          </div>
+        <div class="iconos__carrito">
+          <img src="./img/carrito2.png" alt="carrito" />
         </div>
-      </nav>
-    </header>
-    <main>
-      <h2 class="header-catalogo">
-        catalogo
-      </h2>
-      <div class="lista-productos">
-        <div class="lista-productos__ficha-producto">
-          <a href="">
-            <img
-            class="lista-productos__ficha-producto__imagen-producto"
-              src="./img/imgCatalog/imgAlfombra.jpg"
-              alt="Alfombra motivos geométricos"
-            />
-          </a>
+        <div class="iconos__burguer">
+          <img src="./img/menu.png" alt="burguer" />
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <h2 class="header-catalogo">
+      catalogo
+    </h2>
+    <div class="lista-productos">
+      <div class="lista-productos__ficha-producto">
+        <a href="">
+          <img class="lista-productos__ficha-producto__imagen-producto" src="./img/imgCatalog/imgAlfombra.jpg"
+            alt="Alfombra motivos geométricos" />
+        </a>
+        <p>
+          Alfombra motivos geométricos
+        </p>
+        <div class="lista-productos__container-precio">
           <p>
-            Alfombra motivos geométricos
-          </p>
-          <div class="lista-productos__container-precio">
-            <p>
             200€
           </p>
           <img class="lista-productos__icono" src="./img/carrito2.png" alt="icono añadir a carrito">
-         </div>
         </div>
-        <div class="lista-productos__ficha-producto">
-          <a href="">
-            <img class="lista-productos__ficha-producto__imagen-producto" src="./img/imgCatalog/imgBiblioteca.webp" alt="Biblioteca" />
-          </a>
+      </div>
+      <div class="lista-productos__ficha-producto">
+        <a href="">
+          <img class="lista-productos__ficha-producto__imagen-producto" src="./img/imgCatalog/imgBiblioteca.webp"
+            alt="Biblioteca" />
+        </a>
+        <p>
+          Biblioteca de madera
+        </p>
+        <div class="lista-productos__container-precio">
           <p>
-            Biblioteca de madera
-          </p>
-          <div class="lista-productos__container-precio">
-            <p>
             900€
           </p>
           <img class="lista-productos__icono" src="./img/carrito2.png" alt="icono añadir a carrito">
-         </div>
         </div>
-        <div class="lista-productos__ficha-producto">
-          <a href="">
-            <img class="lista-productos__ficha-producto__imagen-producto" src="./img/imgCatalog/imgCasaGatoRosa.webp" alt="Casa gato" />
-          </a>
+      </div>
+      <div class="lista-productos__ficha-producto">
+        <a href="">
+          <img class="lista-productos__ficha-producto__imagen-producto" src="./img/imgCatalog/imgCasaGatoRosa.webp"
+            alt="Casa gato" />
+        </a>
+        <p>
+          Casa gato
+        </p>
+        <div class="lista-productos__container-precio">
           <p>
-            Casa gato
-          </p>
-          <div class="lista-productos__container-precio">
-            <p>
             129€
           </p>
           <img class="lista-productos__icono" src="./img/carrito2.png" alt="icono añadir a carrito">
-         </div>
         </div>
-        <div class="lista-productos__ficha-producto">
-          <a href="">
-            <img
-            class="lista-productos__ficha-producto__imagen-producto"
-              src="./img/imgCatalog/imgCojin.webp"
-              alt=" Cojín hecho a mano"
-            />
-          </a>
+      </div>
+      <div class="lista-productos__ficha-producto">
+        <a href="">
+          <img class="lista-productos__ficha-producto__imagen-producto" src="./img/imgCatalog/imgCojin.webp"
+            alt=" Cojín hecho a mano" />
+        </a>
+        <p>
+          Cojín hecho a mano
+        </p>
+        <div class="lista-productos__container-precio">
           <p>
-            Cojín hecho a mano
-          </p>
-          <div class="lista-productos__container-precio">
-            <p>
             100€
           </p>
           <img class="lista-productos__icono" src="./img/carrito2.png" alt="icono añadir a carrito">
-         </div>
         </div>
-        <div class="lista-productos__ficha-producto">
-          <a href="">
-            <img
-            class="lista-productos__ficha-producto__imagen-producto"
-              src="./img/imgCatalog/imgCojinFrances - copia.avif"
-              alt="Cojín francés"
-            />
-          </a>
+      </div>
+      <div class="lista-productos__ficha-producto">
+        <a href="">
+          <img class="lista-productos__ficha-producto__imagen-producto"
+            src="./img/imgCatalog/imgCojinFrances - copia.avif" alt="Cojín francés" />
+        </a>
+        <p>
+          Cojín frances
+        </p>
+        <div class="lista-productos__container-precio">
           <p>
-            Cojín frances
-          </p>
-          <div class="lista-productos__container-precio">
-            <p>
             700€
           </p>
           <img class="lista-productos__icono" src="./img/carrito2.png" alt="icono añadir a carrito">
-         </div>
         </div>
-        <div class="lista-productos__ficha-producto">
-          <a href="">
-            <img class="lista-productos__ficha-producto__imagen-producto" src="./img/imgCatalog/imgCuadroAzul.jpg" alt="Cuadro Azúl " />
-          </a>
+      </div>
+      <div class="lista-productos__ficha-producto">
+        <a href="">
+          <img class="lista-productos__ficha-producto__imagen-producto" src="./img/imgCatalog/imgCuadroAzul.jpg"
+            alt="Cuadro Azúl " />
+        </a>
+        <p>
+          Cuadro azul mar
+        </p>
+        <div class="lista-productos__container-precio">
           <p>
-            Cuadro azul mar
-          </p>
-          <div class="lista-productos__container-precio">
-            <p>
             100€
           </p>
           <img class="lista-productos__icono" src="./img/carrito2.png" alt="icono añadir a carrito">
-         </div>
         </div>
-        <div class="lista-productos__ficha-producto">
-          <a href="">
-            <img
-            class="lista-productos__ficha-producto__imagen-producto"
-              src="./img/imgCatalog/ImgCuadroNatura.avif"
-              alt="Cuadro Natura"
-            />
-          </a>
+      </div>
+      <div class="lista-productos__ficha-producto">
+        <a href="">
+          <img class="lista-productos__ficha-producto__imagen-producto" src="./img/imgCatalog/ImgCuadroNatura.avif"
+            alt="Cuadro Natura" />
+        </a>
+        <p>
+          Cuadro natura
+        </p>
+        <div class="lista-productos__container-precio">
           <p>
-            Cuadro natura
-          </p>
-          <div class="lista-productos__container-precio">
-            <p>
             200€
           </p>
           <img class="lista-productos__icono" src="./img/carrito2.png" alt="icono añadir a carrito">
-         </div>
         </div>
-        <div class="lista-productos__ficha-producto">
-          <a href="">
-            <img
-            class="lista-productos__ficha-producto__imagen-producto"
-              src="./img/imgCatalog/imgFuckyou.avif"
-              alt="Escultura FuckYou"
-            />
-          </a>
+      </div>
+      <div class="lista-productos__ficha-producto">
+        <a href="">
+          <img class="lista-productos__ficha-producto__imagen-producto" src="./img/imgCatalog/imgFuckyou.avif"
+            alt="Escultura FuckYou" />
+        </a>
+        <p>
+          Escultura Fuckyou
+        </p>
+
+        <div class="lista-productos__container-precio">
           <p>
-            Escultura Fuckyou
-          </p>
-          
-            <div class="lista-productos__container-precio">
-              <p>
             60€
           </p>
           <img class="lista-productos__icono" src="./img/carrito2.png" alt="icono añadir a carrito">
-         </div>
         </div>
-        <div class="lista-productos__ficha-producto">
-          <a href="">
-            <img
-            class="lista-productos__ficha-producto__imagen-producto"
-              src="./img/imgCatalog/imgHojasVerde.avif"
-              alt="Macramé hojas verdes"
-            />
-          </a>
+      </div>
+      <div class="lista-productos__ficha-producto">
+        <a href="">
+          <img class="lista-productos__ficha-producto__imagen-producto" src="./img/imgCatalog/imgHojasVerde.avif"
+            alt="Macramé hojas verdes" />
+        </a>
+        <p>
+          Macramé hojas verdes
+        </p>
+        <div class="lista-productos__container-precio">
           <p>
-            Macramé hojas verdes
-          </p>
-          <div class="lista-productos__container-precio">
-            <p>
             25€
           </p>
           <img class="lista-productos__icono" src="./img/carrito2.png" alt="icono añadir a carrito">
-         </div>
         </div>
-        <div class="lista-productos__ficha-producto">
-          <a href="">
-            <img
-            class="lista-productos__ficha-producto__imagen-producto"
-              src="./img/imgCatalog/imgJarroncitos.avif"
-              alt=" Set Jarroncitos"
-            />
-          </a>
+      </div>
+      <div class="lista-productos__ficha-producto">
+        <a href="">
+          <img class="lista-productos__ficha-producto__imagen-producto" src="./img/imgCatalog/imgJarroncitos.avif"
+            alt=" Set Jarroncitos" />
+        </a>
+        <p>
+          Set jarroncitos caras
+        </p>
+        <div class="lista-productos__container-precio">
           <p>
-            Set jarroncitos caras
-          </p>
-          <div class="lista-productos__container-precio">
-            <p>
             100€
           </p>
           <img class="lista-productos__icono" src="./img/carrito2.png" alt="icono añadir a carrito">
-         </div>
         </div>
-        <div class="lista-productos__ficha-producto">
-          <a href="">
-            <img
-            class="lista-productos__ficha-producto__imagen-producto"
-              src="img/imgCatalog/imgJarronMadera.avif"
-              alt=" Set 2 jarrones de madera"
-            />
-          </a>
+      </div>
+      <div class="lista-productos__ficha-producto">
+        <a href="">
+          <img class="lista-productos__ficha-producto__imagen-producto" src="img/imgCatalog/imgJarronMadera.avif"
+            alt=" Set 2 jarrones de madera" />
+        </a>
+        <p>
+          Set 2 jarrones de madera
+        </p>
+        <div class="lista-productos__container-precio">
           <p>
-            Set 2 jarrones de madera
-          </p>
-          <div class="lista-productos__container-precio">
-            <p>
             50€
           </p>
           <img class="lista-productos__icono" src="./img/carrito2.png" alt="icono añadir a carrito">
-         </div>
         </div>
-        <div class="lista-productos__ficha-producto">
-          <a href="">
-            <img
-            class="lista-productos__ficha-producto__imagen-producto"
-              src="./img/imgCatalog/imgJarronMarron.avif"
-              alt="Jarrón marrón"
-            />
-          </a>
+      </div>
+      <div class="lista-productos__ficha-producto">
+        <a href="">
+          <img class="lista-productos__ficha-producto__imagen-producto" src="./img/imgCatalog/imgJarronMarron.avif"
+            alt="Jarrón marrón" />
+        </a>
+        <p>
+          Jarrón marrón
+        </p>
+        <div class="lista-productos__container-precio">
           <p>
-            Jarrón marrón
-          </p>
-          <div class="lista-productos__container-precio">
-            <p>
             55€
           </p>
           <img class="lista-productos__icono" src="./img/carrito2.png" alt="icono añadir a carrito">
-         </div>
         </div>
-        <div class="lista-productos__ficha-producto">
-          <a href="">
-            <img
-            class="lista-productos__ficha-producto__imagen-producto"
-              src="./img/imgCatalog/imgMaceta.avif"
-              alt="maceta macramé colgante"
-            />
-          </a>
+      </div>
+      <div class="lista-productos__ficha-producto">
+        <a href="">
+          <img class="lista-productos__ficha-producto__imagen-producto" src="./img/imgCatalog/imgMaceta.avif"
+            alt="maceta macramé colgante" />
+        </a>
+        <p>
+          Maceta macramé colgante
+        </p>
+        <div class="lista-productos__container-precio">
           <p>
-            Maceta macramé colgante
-          </p>
-          <div class="lista-productos__container-precio">
-            <p>
             25€
           </p>
           <img class="lista-productos__icono" src="./img/carrito2.png" alt="icono añadir a carrito">
-         </div>
         </div>
-        <div class="lista-productos__ficha-producto">
-          <a href="">
-            <img
-            class="lista-productos__ficha-producto__imagen-producto"
-              src="./img/imgCatalog/imgMacrameSombrero.webp"
-              alt="Macramé decoración sombrero"
-            />
-          </a>
+      </div>
+      <div class="lista-productos__ficha-producto">
+        <a href="">
+          <img class="lista-productos__ficha-producto__imagen-producto" src="./img/imgCatalog/imgMacrameSombrero.webp"
+            alt="Macramé decoración sombrero" />
+        </a>
+        <p>
+          Macramé decoración sombrero
+        </p>
+        <div class="lista-productos__container-precio">
           <p>
-            Macramé decoración sombrero
-          </p>
-          <div class="lista-productos__container-precio">
-            <p>
             70€
           </p>
           <img class="lista-productos__icono" src="./img/carrito2.png" alt="icono añadir a carrito">
-         </div>
         </div>
-        <div class="lista-productos__ficha-producto">
-          <a href="">
-            <img class="lista-productos__ficha-producto__imagen-producto" src="./img/imgCatalog/imgMapa.avif" alt="Mapa mundo" />
-          </a>
+      </div>
+      <div class="lista-productos__ficha-producto">
+        <a href="">
+          <img class="lista-productos__ficha-producto__imagen-producto" src="./img/imgCatalog/imgMapa.avif"
+            alt="Mapa mundo" />
+        </a>
+        <p>
+          Mapa mundo
+        </p>
+        <div class="lista-productos__container-precio">
           <p>
-            Mapa mundo
-          </p>
-          <div class="lista-productos__container-precio">
-            <p>
             200€
           </p>
           <img class="lista-productos__icono" src="./img/carrito2.png" alt="icono añadir a carrito">
-         </div>
         </div>
-        <div class="lista-productos__ficha-producto">
-          <a href="">
-            <img
-            class="lista-productos__ficha-producto__imagen-producto"
-              src="./img/imgCatalog/imgMesaCentro.webp"
-              alt="Mesa de centro vidrio y madera"
-            />
-          </a>
+      </div>
+      <div class="lista-productos__ficha-producto">
+        <a href="">
+          <img class="lista-productos__ficha-producto__imagen-producto" src="./img/imgCatalog/imgMesaCentro.webp"
+            alt="Mesa de centro vidrio y madera" />
+        </a>
+        <p>
+          Mesa de centro vidrio y madera
+        </p>
+        <div class="lista-productos__container-precio">
           <p>
-            Mesa de centro vidrio y madera
-          </p>
-          <div class="lista-productos__container-precio">
-            <p>
             670€
           </p>
           <img class="lista-productos__icono" src="./img/carrito2.png" alt="icono añadir a carrito">
-         </div>
         </div>
-        <div class="lista-productos__ficha-producto">
-          <a href="">
-            <img
-            class="lista-productos__ficha-producto__imagen-producto"
-              src="./img/imgCatalog/imgPiñas - copia.jpg"
-              alt="Set 3 piñas decoración"
-            />
-          </a>
+      </div>
+      <div class="lista-productos__ficha-producto">
+        <a href="">
+          <img class="lista-productos__ficha-producto__imagen-producto" src="./img/imgCatalog/imgPiñas - copia.jpg"
+            alt="Set 3 piñas decoración" />
+        </a>
+        <p>
+          Set 3 piñas decoración
+        </p>
+        <div class="lista-productos__container-precio">
           <p>
-            Set 3 piñas decoración
-          </p>
-          <div class="lista-productos__container-precio">
-            <p>
             65€
           </p>
           <img class="lista-productos__icono" src="./img/carrito2.png" alt="icono añadir a carrito">
-         </div>
         </div>
-        <div class="lista-productos__ficha-producto">
-          <a href="">
-            <img
-            class="lista-productos__ficha-producto__imagen-producto"
-              src="./img/imgCatalog/imgPlato.avif"
-              alt="Plato cerámica hecho a mano"
-            />
-          </a>
+      </div>
+      <div class="lista-productos__ficha-producto">
+        <a href="">
+          <img class="lista-productos__ficha-producto__imagen-producto" src="./img/imgCatalog/imgPlato.avif"
+            alt="Plato cerámica hecho a mano" />
+        </a>
+        <p>
+          Plato cerámica hecho a mano
+        </p>
+        <div class="lista-productos__container-precio">
           <p>
-            Plato cerámica hecho a mano
-          </p>
-          <div class="lista-productos__container-precio">
-            <p>
             25€
           </p>
           <img class="lista-productos__icono" src="./img/carrito2.png" alt="icono añadir a carrito">
-         </div>
         </div>
-        <div class="lista-productos__ficha-producto">
-          <a href="">
-            <img
-            class="lista-productos__ficha-producto__imagen-producto"
-              src="./img/imgCatalog/imgRelojMadera.avif"
-              alt="Reloj de pared madera"
-            />
-          </a>
+      </div>
+      <div class="lista-productos__ficha-producto">
+        <a href="">
+          <img class="lista-productos__ficha-producto__imagen-producto" src="./img/imgCatalog/imgRelojMadera.avif"
+            alt="Reloj de pared madera" />
+        </a>
+        <p>
+          Reloj de pared madera
+        </p>
+        <div class="lista-productos__container-precio">
           <p>
-            Reloj de pared madera
-          </p>
-          <div class="lista-productos__container-precio">
-            <p>
             150€
           </p>
           <img class="lista-productos__icono" src="./img/carrito2.png" alt="icono añadir a carrito">
-         </div>
         </div>
-        <div class="lista-productos__ficha-producto">
-          <a href="">
-            <img
-            class="lista-productos__ficha-producto__imagen-producto"
-              src="./img/imgCatalog/imgMesitaNoche.jpg"
-              alt="Mesita de noche madera"
-            />
-          </a>
+      </div>
+      <div class="lista-productos__ficha-producto">
+        <a href="">
+          <img class="lista-productos__ficha-producto__imagen-producto" src="./img/imgCatalog/imgMesitaNoche.jpg"
+            alt="Mesita de noche madera" />
+        </a>
+        <p>
+          Mesita de noche madera
+        </p>
+        <div class="lista-productos__container-precio">
           <p>
-            Mesita de noche madera
-          </p>
-          <div class="lista-productos__container-precio">
-            <p>
             100€
           </p>
           <img class="lista-productos__icono" src="./img/carrito2.png" alt="icono añadir a carrito">
-         </div>
         </div>
       </div>
- 
-    </main>
-    <footer>
-      <ul class="footer__links">
-        <li>
-          <a href="#">Contact Us</a>
-        </li>
-        <li>
-          <a href="#">FAQ</a>
-        </li>
-        <li>
-          <a href="#">About Us</a>
-        </li>
-      </ul>
-      <ul class="footer__social-media-links">
-        <li>
-          <a href="#">
-            <img
-              src="./img/icon_instagram.png"
-              alt="Instagram logo"
-              class="footer__social-media-logo"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img
-              src="./img/icon_facebook.png"
-              alt="Facebook logo"
-              class="footer__social-media-logo"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <img
-              src="./img/icon_twitter.png"
-              alt="Twitter logo"
-              class="footer__social-media-logo"
-            />
-          </a>
-        </li>
-      </ul>
-    </footer>
-  </body>
-</html>
+    </div>
 
+  </main>
+  <footer>
+    <ul class="footer__links">
+      <li>
+        <a href="#">Contact Us</a>
+      </li>
+      <li>
+        <a href="#">FAQ</a>
+      </li>
+      <li>
+        <a href="#">About Us</a>
+      </li>
+    </ul>
+    <ul class="footer__social-media-links">
+      <li>
+        <a href="#">
+          <img src="./img/icon_instagram.png" alt="Instagram logo" class="footer__social-media-logo" />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./img/icon_facebook.png" alt="Facebook logo" class="footer__social-media-logo" />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./img/icon_twitter.png" alt="Twitter logo" class="footer__social-media-logo" />
+        </a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
+</html>
