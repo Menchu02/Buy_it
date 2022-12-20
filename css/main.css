@@ -1,4 +1,5 @@
 @import url(./global/reset.css);
 @import url(./global/variables.css);
+@import url(./global/global.css);
 @import url(./component/catalogo.css);
 @import url(./component/nav.css);

@@ -1,8 +1,10 @@
+
 main {
   background-color: var(--fourth);
   font-family: var(--main-font);
   color: var(--primary);
   padding-bottom: 35px;
+  
 }
 .header-catalogo {
   font-size: 2.2rem;
@@ -20,19 +22,20 @@ main {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  gap: 10px;
+  font-family: var(--main-font);
+
 }
-.lista-productos__container-precio {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-}
-.lista-productos__icono {
-  width: 20px;
-  height: 20px;
-  background-image: url("./img/carrito2.png");
-  
+.lista-productos__btn-anyadir {
+  width: 60px;
+  height: 30px;
+  border: none;
+  background-color: var(--third);
+  border-radius: 12px;
+  font-family: var(--main-font);
+  color: var(--secondary);
+  font-weight: bold;
+  border-bottom: 1px solid var(--primary);
 }
 
 .lista-productos__ficha-producto__imagen-producto {
