@@ -25,3 +25,25 @@ img {
   justify-content: space-between;
   gap: 30px;
 }
+@media (min-width: 700px) {
+  .nav-container {
+    padding: 40px 40px;
+  }
+  .nav-container__header {
+    font-size: 2.5rem;
+  }
+  .nav-container__header--bigCharacter {
+    font-size: 3rem;
+  }
+  img {
+    width: 35px;
+    height: 35px;
+  }
+  img:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  .iconos {
+    gap: 50px;
+  }
+}
