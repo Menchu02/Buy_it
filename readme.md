@@ -77,6 +77,9 @@ Trello:
 https://trello.com/b/XD9o6ceD/buyit-ecommerce-cool-deco
 
 Sketch y mockup usando Figma:
+<img src="./img/img_readme/gris1.png"/>
+<img src="./img/img_readme/mokupmv.png"/>
+<img src="./img/img_readme/mokupdesktop.png"/>
 
 GitHub pages:
 https://menchu02.github.io/Buy_it/
